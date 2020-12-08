@@ -23,7 +23,7 @@ namespace TriangleTracker.TestTools
     public void IsTriangle_IsAnIsoscelesTriangle_True()
     {
       Triangle testTriangle = new Triangle();
-      Assert.AreEqual(true, testTriangle.IsIsosceles(2,2,2));
+      Assert.AreEqual(true, testTriangle.IsIsosceles(1,2,2));
     }
   }
 }
