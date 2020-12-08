@@ -7,10 +7,10 @@ namespace TriangleTracker.TestTools
   public class TriangleTests
   {
     [TestMethod]
-    public void IsTriangle_IsOneSideLongerThanOthersCombined_True()
+    public void IsTriangle_IsATriangle_False()
     {
       Triangle testTriangle = new Triangle();
-      Assert.AreEqual(true, testTriangle.IsTriangle(2,1,1));
+      Assert.AreEqual(false, testTriangle.IsTriangle(2,1,1));
     }
     
   }
