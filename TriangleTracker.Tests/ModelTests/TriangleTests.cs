@@ -29,7 +29,7 @@ namespace TriangleTracker.TestTools
     public void IsTriangle_IsAScaleneTriangle_True()
     {
       Triangle testTriangle = new Triangle();
-      Assert.AreEqual(true, testTriangle.IsScalene(1,2,2));
+      Assert.AreEqual(true, testTriangle.IsScalene(4,2,5));
     }
   }
 }
